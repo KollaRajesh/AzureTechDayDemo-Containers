@@ -1,4 +1,4 @@
-<mxfile modified="2020-10-24T15:10:36.635Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edg/86.0.622.51" etag="zeD3oOe-i7qrETlg_HfN" version="13.8.1" type="github" pages="2">
+<mxfile modified="2020-10-24T15:41:27.278Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edg/86.0.622.51" etag="1QPZdBPNaa4PkEU1SWN-" version="13.8.1" type="github" pages="3">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -302,7 +302,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="DGWB0BznINM3LNl3tufz" name="VM-Container">
+  <diagram id="DGWB0BznINM3LNl3tufz" name="VM Vs Container">
     <mxGraphModel dx="1874" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="kyDqKszKugS3sy3nD4lF-0" />
@@ -452,19 +452,19 @@
           <mxGeometry x="300" y="54" width="50" height="41" as="geometry" />
         </mxCell>
         <mxCell id="2RaWeisrTVGtAkEOiD9W-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#EAEDED;fontSize=22;fontColor=#FFFFFF;strokeColor=none;labelBackgroundColor=none;" vertex="1" parent="kyDqKszKugS3sy3nD4lF-1">
-          <mxGeometry x="945" y="120" width="450" height="280" as="geometry" />
+          <mxGeometry x="945" y="120" width="445" height="250" as="geometry" />
         </mxCell>
         <mxCell id="7nLyYLvclr_Cwdo7xorj-0" value="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="kyDqKszKugS3sy3nD4lF-1">
           <mxGeometry x="965" y="160" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="bnwkZBaLwuNeR5rry-iJ-0" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="kyDqKszKugS3sy3nD4lF-1">
-          <mxGeometry x="965" y="271" width="40" height="38" as="geometry" />
+          <mxGeometry x="965" y="246" width="40" height="38" as="geometry" />
         </mxCell>
         <mxCell id="CElo8uF_VUIQxqXV9QFd-0" value="&lt;span&gt;Virtual Machines are running on Hypervisor which enables virtualization of OS and manages sharing of physical resources to VMs. Each VM is having its own guest OS.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="kyDqKszKugS3sy3nD4lF-1">
-          <mxGeometry x="1025" y="150" width="390" height="80" as="geometry" />
+          <mxGeometry x="1025" y="150" width="365" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CElo8uF_VUIQxqXV9QFd-1" value="&lt;span&gt;Containers are running directly on host OS.&amp;nbsp; and shares host OS between containers. these are highly portable and isolated.&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingTop=-4;fontSize=14;labelBackgroundColor=none;whiteSpace=wrap;" vertex="1" parent="kyDqKszKugS3sy3nD4lF-1">
-          <mxGeometry x="1025" y="265" width="360" height="125" as="geometry" />
+          <mxGeometry x="1025" y="246" width="360" height="85" as="geometry" />
         </mxCell>
         <mxCell id="CElo8uF_VUIQxqXV9QFd-2" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="kyDqKszKugS3sy3nD4lF-1">
           <mxGeometry x="695" y="690" width="40" height="38" as="geometry" />
@@ -472,6 +472,14 @@
         <mxCell id="CElo8uF_VUIQxqXV9QFd-3" value="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#007CBD;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontSize=22;labelBackgroundColor=none;" vertex="1" parent="kyDqKszKugS3sy3nD4lF-1">
           <mxGeometry x="202" y="690" width="40" height="38" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_RcHPSoCK-UyDk47PvzI" name="Docker-system">
+    <mxGraphModel dx="1874" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="ZIVqKfLvt1eOMZWE84N--0" />
+        <mxCell id="ZIVqKfLvt1eOMZWE84N--1" parent="ZIVqKfLvt1eOMZWE84N--0" />
       </root>
     </mxGraphModel>
   </diagram>
