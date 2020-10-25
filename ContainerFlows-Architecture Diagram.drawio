@@ -1,4 +1,4 @@
-<mxfile modified="2020-10-25T01:10:18.869Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="pAdJSup3sU20UgHDNR7y" version="13.8.1" type="github" pages="4">
+<mxfile modified="2020-10-25T01:34:28.109Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="32I4cN1OwqMBR50u6I6T" version="13.8.1" type="github" pages="5">
   <diagram id="DGWB0BznINM3LNl3tufz" name="VM Vs Container">
     <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -839,6 +839,71 @@
         </mxCell>
         <mxCell id="MMUO8AqPADdzn4ml8VOp-1" value="&lt;b&gt;&lt;u&gt;Port mapping&lt;/u&gt;&lt;/b&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=18;" vertex="1" parent="SZyrhIcCRablPuFvG8RM-1">
           <mxGeometry x="400" y="10" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xNS27FrZU8GeJHGt3b2i" name="Volume-mounting">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="kio7lWNPIo08DpG1vPxD-0" />
+        <mxCell id="kio7lWNPIo08DpG1vPxD-1" parent="kio7lWNPIo08DpG1vPxD-0" />
+        <mxCell id="kio7lWNPIo08DpG1vPxD-21" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=2;fontSize=18;" vertex="1" parent="kio7lWNPIo08DpG1vPxD-1">
+          <mxGeometry x="110" y="30" width="640" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="kio7lWNPIo08DpG1vPxD-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#D4E1F5;" vertex="1" parent="kio7lWNPIo08DpG1vPxD-1">
+          <mxGeometry x="140" y="70" width="560" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="kio7lWNPIo08DpG1vPxD-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#EBEBEB;" vertex="1" parent="kio7lWNPIo08DpG1vPxD-1">
+          <mxGeometry x="460" y="110" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kio7lWNPIo08DpG1vPxD-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="kio7lWNPIo08DpG1vPxD-1">
+          <mxGeometry x="555" y="115" width="117.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kio7lWNPIo08DpG1vPxD-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="kio7lWNPIo08DpG1vPxD-1">
+          <mxGeometry x="170" y="120" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kio7lWNPIo08DpG1vPxD-6" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.cloud_services_configuration_file;pointerEvents=1;fontSize=18;" vertex="1" parent="kio7lWNPIo08DpG1vPxD-1">
+          <mxGeometry x="625" y="135" width="15" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="kio7lWNPIo08DpG1vPxD-7" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.cloud_services_configuration_file;pointerEvents=1;fontSize=18;" vertex="1" parent="kio7lWNPIo08DpG1vPxD-1">
+          <mxGeometry x="280" y="150" width="23.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kio7lWNPIo08DpG1vPxD-8" value="80" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;rounded=0;fontSize=18;strokeColor=#000000;" vertex="1" parent="kio7lWNPIo08DpG1vPxD-1">
+          <mxGeometry x="440" y="150" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kio7lWNPIo08DpG1vPxD-11" value="&lt;font style=&quot;font-size: 12px&quot;&gt;/usr/share/nginx/html&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=18;" vertex="1" parent="kio7lWNPIo08DpG1vPxD-1">
+          <mxGeometry x="550" y="110" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kio7lWNPIo08DpG1vPxD-12" value="&lt;font style=&quot;font-size: 8px&quot;&gt;File system in container&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=18;strokeWidth=8;" vertex="1" parent="kio7lWNPIo08DpG1vPxD-1">
+          <mxGeometry x="555" y="150" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kio7lWNPIo08DpG1vPxD-13" value="Container&lt;br&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;rounded=0;fontSize=18;strokeColor=#000000;" vertex="1" parent="kio7lWNPIo08DpG1vPxD-1">
+          <mxGeometry x="460" y="200" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kio7lWNPIo08DpG1vPxD-14" value="Host" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;rounded=0;fontSize=18;strokeColor=#000000;" vertex="1" parent="kio7lWNPIo08DpG1vPxD-1">
+          <mxGeometry x="140" y="70" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kio7lWNPIo08DpG1vPxD-16" value="" style="curved=1;endArrow=classic;html=1;fontSize=18;entryX=0.508;entryY=-0.167;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="kio7lWNPIo08DpG1vPxD-1" source="kio7lWNPIo08DpG1vPxD-5" target="kio7lWNPIo08DpG1vPxD-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="100" as="sourcePoint" />
+            <mxPoint x="440" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="80" />
+              <mxPoint x="470" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kio7lWNPIo08DpG1vPxD-19" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Volume mounting&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="kio7lWNPIo08DpG1vPxD-16">
+          <mxGeometry x="-0.2273" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kio7lWNPIo08DpG1vPxD-20" value="&amp;nbsp;file system in Host" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;rounded=0;fontSize=18;strokeColor=#000000;" vertex="1" parent="kio7lWNPIo08DpG1vPxD-1">
+          <mxGeometry x="170" y="210" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kio7lWNPIo08DpG1vPxD-22" value="File Mounting between host and container" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=18;" vertex="1" parent="kio7lWNPIo08DpG1vPxD-1">
+          <mxGeometry x="255" y="30" width="350" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
