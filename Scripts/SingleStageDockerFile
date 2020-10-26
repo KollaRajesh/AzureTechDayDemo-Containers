@@ -1,0 +1,25 @@
+﻿
+##Creating docker images with docker files 
+
+##Dockerfile:- Set of instructions for how to create docker image  
+
+From  microsoft/dotner:aspnetcore-runtime 
+WORKDIR /app
+COPY  ./out  .
+
+ENTRYPOINT  ["dotnet","webapp.dll"]
+
+##===================================================
+## following command to publish using  dotnet cli
+
+#dotnet publish -c Release -o out 
+
+
+## following commend is used to build docker image using docker file
+#docker build -t sampleWebapp
+
+#docker  image ls
+
+#docker run -d  -p 8080:80  --name  myapp  sampleWebapp
+
+
